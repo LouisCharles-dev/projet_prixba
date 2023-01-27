@@ -104,3 +104,137 @@ body{
 .active:hover{
     transform: scale(1.1);
 }
+/******************************************************************************************CONTENU PRINCIPAL */
+
+.contenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 150px 0 150px;
+}
+
+p, h1, h2, h4, a, button, option{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2, h1{
+    font-size: 30px;
+}
+
+h2, .je_choisi{
+    color: #EA5455;
+    font-weight: bold;
+}
+
+.contenu article{
+    margin : 50px 0 50px 0;
+}
+
+/******************************************************************************************CAROUSEL */
+
+.contenu_carousel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenu_carousel figure{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 30px 5px 30px;
+}
+
+.contenu_carousel figure:hover{
+    transform: scale(1.1);
+}
+
+
+.carte_carousel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stock_label{
+    display: flex;
+    align-self: end;
+    color: green;
+    margin-top: 50px;
+}
+
+.fleche{
+    width:50px;
+}
+
+.vente_img{
+    width: 170px;
+}
+
+.vente_label{
+    font-weight: bold;
+}
+
+.titre{
+    padding-bottom: 50px;
+}
+
+.img_carousel{
+    width:300px
+}
+
+/******************************************************************************************OFFRES */
+
+.contenu_offres{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenu_offres img{
+    width:50px
+}
+
+.item_offres{
+    display:flex;
+    justify-content: center;
+    background-color: #2D4059;
+    color:white;
+    font-weight: bold;
+    width:170px;
+    height:170px;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+.item_offres figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_offres:hover{
+    transform: scale(1.1);
+}
+
+/******************************************************************************************CHOIX */
+
+.contenu_choix{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenu_choix img{
+    width:300px
+}
+
+.contenu_choix figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenu_choix figure:hover{
+    transform: scale(1.1);
+}
