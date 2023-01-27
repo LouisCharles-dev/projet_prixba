@@ -2,23 +2,55 @@
 
 <html>
 
-    <head>
-        <link rel="stylesheet" href="https://kit.fontawesome.com/cd8c536276.css" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">  
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css"
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
 
-        <tile>Pixba</tile>        
-            <h1>Prixba</h1>
-            <p>Bienvenue sur notre site. Notre service à la clientèle est disponible pour vous servir. <br/>
-            Louis tu peux faire deux choses en mm temps: guetter les cliens et faire des propositions de réduction</p>
-        
-        
-    </head>
+<!-- /******************************************************************************************HEADER */ -->
 
-    <body>
-    </body>
+<body>
+    <header class="head">
+        <div class="logo">
+            <img src="images/logo_color.svg" alt="logo PrixBa">
+            <h1 class="site">PrixBa</h1>
+        </div>
 
-</html>
+        <div class="procedure">
+            <div class="titre_procedure">
+                <h1>Tous vos besoins à petits prix dans la métropole Lilloise</h1>
+            </div>
+
+            <div class="point_procedure">
+                <img src="images/point_1.svg" alt="bullet point 1">
+                <p class="etape_procedure">Choix et commande des articles</p>
+                <img src="images/point_2.svg" alt="bullet point 2">
+                <p class="etape_procedure">Retrait des articles</p>
+                <img src="images/point_3.svg" alt="bullet point 3">
+                <p class="etape_procedure">Paiement des articles</p>
+            </div>
+        </div>
+    </header>
+
+    <div class = "bandau_header">
+            <div class="rechercher_barre">
+                <select name ="catégories">
+                    <option value="catégorie_1">Catégories</option>
+                    <option value="catégorie_2">Catégories 2</option>
+                    <option value="catégorie_3">Catégories 3</option>
+                    <option value="catégorie_4">Catégories 4</option>
+                </select>
+                <form action="/action_page.php">
+                    <input type="text" name="search">
+                    <button type="submit">Rechercher</button>
+                </form>
+            </div>
+
+            <a class="active" href="#home">Catalogue</a>
+            <a class="active" href="#about">Questions fréquentes</a>
+            <a class="active" href="#contact">Connexion</a>
+
+            <img src="images/panier.png" alt="icone panier" class="panier_logo">
+    </div>

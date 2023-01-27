@@ -1,8 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
-h1{
+body{
+    margin:0;
+}
+
+/******************************************************************************************HEADER */
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 40px 40px 40px;
+    background-color: #E5E5E5;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.panier_logo{
+    width:40px;
+    height:40px;
+    align-self: center;
+}
+
+.panier_logo:hover{
+    transform: scale(1.1);
+}
+
+.site{
+    color: #2D4059;
+    padding-left: 15px;
+}
+
+.procedure{
+    display:flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.point_procedure{
+    display: flex;
+    justify-content: end;
+}
+
+.point_procedure img{
+    width: 3%;
+}
+
+.titre_procedure h1{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.etape_procedure{
+    padding:0 10px 0 10px;
     font-weight: bold;
-    color: blue;
-    background-position-x: left;
-    font-size: 80 px;
-    border: thick double #32a1ce ;
+}
+
+.bandau_header{
+    display:flex;
+    justify-content: space-around;
+    background-color: #2D4059;
+    color: white;
+    width: 100%;
+    height: 70px;
+    padding:15px 0 15px 0;
+}
+
+.bandau_header a, .rechercher_barre{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.bandau_header button{
+    background-color: #EA5455;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.bandau_header input{
+    border-radius: 5px; 
+    height: 25px;
+    padding:0;
+    margin-left: 10px;
+}
+
+.bandau_header select{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.active:hover{
+    transform: scale(1.1);
 }
