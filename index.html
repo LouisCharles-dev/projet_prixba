@@ -1,4 +1,241 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<!-- /******************************************************************************************HEADER */ -->
+
+<body>
+    <header class="head">
+        <div class="logo">
+            <img src="images/logo_color.svg" alt="logo PrixBa">
+            <h1 class="site">PrixBa</h1>
+        </div>
+
+        <div class="procedure">
+            <div class="titre_procedure">
+                <h1>Tous vos besoins à petits prix dans la métropole Lilloise</h1>
+            </div>
+
+            <div class="point_procedure">
+                <img src="images/point_1.svg" alt="bullet point 1">
+                <p class="etape_procedure">Choix et commande des articles</p>
+                <img src="images/point_2.svg" alt="bullet point 2">
+                <p class="etape_procedure">Retrait des articles</p>
+                <img src="images/point_3.svg" alt="bullet point 3">
+                <p class="etape_procedure">Paiement des articles</p>
+            </div>
+        </div>
+    </header>
+
+    <div class = "bandau_header">
+            <div class="rechercher_barre">
+                <select name ="catégories">
+                    <option value="catégorie_1">Catégories</option>
+                    <option value="catégorie_2">Catégories 2</option>
+                    <option value="catégorie_3">Catégories 3</option>
+                    <option value="catégorie_4">Catégories 4</option>
+                </select>
+                <form action="/action_page.php">
+                    <input type="text" name="search">
+                    <button type="submit">Rechercher</button>
+                </form>
+            </div>
+
+            <a class="active" href="#home">Catalogue</a>
+            <a class="active" href="#about">Questions fréquentes</a>
+            <a class="active" href="#contact">Connexion</a>
+
+            <img src="images/panier.png" alt="icone panier" class="panier_logo">
+    </div>
+
+    <!-- /******************************************************************************************CAROUSEL */ -->
+
+    <div class = "contenu">
+        <article class="carousel">
+            <section class="titre">
+                <h2>Meilleurs ventes</h2>
+            </section>
+
+            <section class="contenu_carousel">
+                <img src="images/fleche_gauche.svg" alt="fleche gauche carousel" class="fleche">
+                
+                <figure>
+                    <img src="images/bricolage_marteau.png" alt="catégories" class="vente_img">
+                    <figcaption class="carte_carousel">
+                        <div>
+                            <p class="vente_label">Marteau</p>
+                            <p class="prix_label">1€</p>
+                        </div>
+
+                        <div>
+                            <p class="stock_label">En stock</p>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/bricolage_marteau.png" alt="catégories" class="vente_img">
+                    <figcaption class="carte_carousel">
+                        <div>
+                            <p class="vente_label">Marteau</p>
+                            <p class="prix_label">1€</p>
+                        </div>
+
+                        <div>
+                            <p class="stock_label">En stock</p>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/bricolage_marteau.png" alt="catégories" class="vente_img">
+                    <figcaption class="carte_carousel">
+                        <div>
+                            <p class="vente_label">Marteau</p>
+                            <p class="prix_label">1€</p>
+                        </div>
+
+                        <div>
+                            <p class="stock_label">En stock</p>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/bricolage_marteau.png" alt="catégories" class="vente_img">
+                    <figcaption class="carte_carousel">
+                        <div>
+                            <p class="vente_label">Marteau</p>
+                            <p class="prix_label">1€</p>
+                        </div>
+
+                        <div>
+                            <p class="stock_label">En stock</p>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <img src="images/fleche_droite.svg" alt="fleche droite carousel" class="fleche">
+            </section>
+        </article>
+
+        <!-- /******************************************************************************************OFFRES */ -->
+
+        <article class="offres-categories">
+            <section class="titre">
+                <h2>Découvrez nos offres par catégories</h2>
+                <a href="index.html">Voir tout</a>
+            </section>
+
+            <section class="contenu_offres">
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item_offres">
+                    <figure>
+                        <img src="images/multimedia.svg" alt="catégories">
+                        <figcaption><p>Multimédia</p></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="items">
+
+            </section>
+        </article>
+
+        <!-- /******************************************************************************************CHOIX */ -->
+
+        <article class="choix">
+            <section class="titre">
+                <h2>Avoir le choix chez Prix Marché</h2>                
+            </section>
+            
+            <section class="contenu_choix">
+                <figure>
+                    <img src="images/victoria.jpg" alt="catégories">
+                    <figcaption><p class="je_choisi">Je choisi</p></figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/rosebox.jpg" alt="catégories">
+                    <figcaption><p class="je_choisi">Je choisi</p></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/alex.jpg" alt="catégories">
+                    <figcaption><p class="je_choisi">Je choisi</p></figcaption>
+                </figure>
+            </section>          
+        </article>
+    </div>
 
     <!-- /******************************************************************************************FOOTER */ -->
 
